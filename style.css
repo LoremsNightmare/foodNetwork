@@ -1,0 +1,179 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+#firstSection,
+#secondSection {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.halfWidthOne {
+  margin-left: 85px;
+}
+.halfWidthTwo {
+  margin-left: 71px;
+}
+
+.imgOne {
+  width: 47rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5rem;
+}
+p {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #18191e;
+}
+
+span {
+  color: #fc9149;
+}
+h2 {
+  font-weight: 600;
+  font-size: 4rem;
+  color: #707070;
+}
+
+.btnOrange {
+  background-image: linear-gradient(90deg, #fb9b4e, #fd472f);
+  padding: 10px 20px;
+  border-radius: 500px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+#secondSection {
+  background-image: url(./images/7.png);
+  background-repeat: no-repeat;
+  background-size: 100rem;
+  margin-top: 5rem;
+}
+
+#secondSection p {
+  font-weight: 550;
+  font-size: 21px;
+  margin-right: 50px;
+  padding-bottom: 65px;
+}
+
+#secondSection img {
+  width: 40rem;
+}
+
+.center {
+  text-align: center;
+}
+
+/* card section */
+
+#cards {
+  display: flex;
+  margin: 100px;
+}
+
+.card p {
+  font-weight: 550;
+  font-size: 16px;
+  margin-right: 50px;
+}
+
+.card h3 {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.card {
+  box-shadow: 2px 3px 49px 0px rgb(0 0 0 / 23%);
+  width: 33.33333333333%;
+  border-radius: 30px;
+  padding: 30px;
+  margin: 15px;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 30px;
+  width: 100%;
+}
+
+/* nav bar */
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 3rem;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  display: block;
+  text-decoration: none;
+  position: relative;
+  color: black;
+}
+
+nav ul li a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 10;
+  width: 0%;
+  background-color: #b30000;
+  height: 2px;
+  transition: 300ms all;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+/* contact us */
+
+#contact {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* footer */
+#footer {
+  background: #0b0e17;
+}
+#footer h1 {
+  color: #5a5a5a;
+  padding-top: 5rem;
+}
+#footer p {
+  color: white;
+  margin: 0;
+  padding-bottom: 10rem;
+}
